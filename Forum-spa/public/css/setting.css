@@ -1,0 +1,156 @@
+/*用户设置 左侧栏*/
+.main {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  margin-bottom: 120px;
+}
+
+.setting {
+  border-radius: 3px;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.setting div {
+  width: 100%;
+  height: 50px;
+  color: #666;
+  line-height: 50px;
+  padding-left: 20px;
+  background-color: #f6f6f6;
+}
+
+.setting ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.setting ul li {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+.setting ul li.now {
+  background-color: rgba(18, 94, 22, 0.09);
+}
+
+.setting ul li:last-child {
+  border-bottom: none;
+}
+
+.setting ul li a {
+  width: 100%;
+  height: 50px;
+  display: block;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+/*用户设置-基本信息*/
+.profile {
+  padding: 10px 15px 0 15px;
+}
+
+.profile .user_message {
+  width: 70%;
+  float: left;
+}
+
+.profile .user-email {
+
+}
+
+.profile .user-email div {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.profile .user-email span {
+  display: block;
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.profile form {
+  padding: 5px;
+}
+
+.profile form .form-group {
+  padding-bottom: 15px;
+}
+
+.profile form label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.profile form textarea {
+  resize: none;
+}
+
+.profile .user_avatar {
+  float: right;
+  width: 30%;
+  padding: 0 10px 10px 30px;
+}
+
+.profile .user_avatar span {
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+}
+
+.profile .user_avatar img {
+  display: block;
+  width: 100%;
+}
+
+.profile .user_avatar label {
+  margin-top: 15px;
+}
+
+.profile .user_avatar input {
+  display: none;
+}
+
+/*基本信息 模态框*/
+
+.avatarBox {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  border: 1px solid #125718;
+  border-radius: 3px;
+  background-color: #fff;
+  z-index: 999;
+  max-width: 300px;
+  padding: 0 20px;
+  transform: translateX(-50%);
+}
+
+.avatarBox .avatarBox-body {
+  display: block;
+  margin: 0 auto;
+}
+
+.avatarBox .avatarBox-body img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+}
+
+.avatarBox .avatarBox-footer {
+  margin: 20px 0 10px 0;
+}
+
+.avatarBox .avatarBox-footer #upload {
+  margin-left: 30px;
+}

@@ -1,0 +1,168 @@
+/*主体内容*/
+.main {
+  padding-top: 15px;
+}
+
+.index {
+  margin-bottom: 120px;
+}
+
+.content {
+  background-color: #fff;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.content .header {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  background-color: #f6f6f6;
+}
+
+.content .header a {
+  color: #333;
+  width: 50px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+}
+
+.content .header a span {
+  color: #ff552f;
+}
+
+.content .header a.now span {
+  background-color: #ff552f;
+  color: #fff;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+.content .list-group {
+  border: none;
+  width: 100%;
+}
+
+.content .list-group .list-group-item {
+  border: none;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-box-shadow: 0 0 1px #ccc;
+  -moz-box-shadow: 0 0 1px #ccc;
+}
+
+.content .list-group li {
+  padding: 10px 15px;
+  width: 100%;
+  height: 50px;
+  display: block;
+  border-radius: 0;
+}
+
+.content .list-group li:hover {
+  background-color: #f6f6f6;
+}
+
+.content .list-group li .user_avatar {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.content .list-group li .user_avatar img {
+  width: 30px;
+  display: block;
+}
+
+.content .list-group li .time {
+  float: right;
+  line-height: 30px;
+}
+
+.content .list-group li div {
+  line-height: 30px;
+  padding: 0 10px;
+  float: left;
+
+}
+
+.content .list-group li div span {
+  color: #fff;
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: 12px;
+}
+
+.content .list-group li div span.share {
+  background-color: #ff552f;
+}
+
+.content .list-group li div span.hot {
+  background-color: #e6002d;
+}
+
+.content .list-group li div a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #333;
+}
+
+/*侧边栏*/
+.sidebar {
+  float: right;
+  padding-left: 10px;
+  padding-right: 0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.sidebar div {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.sidebar div a {
+  width: 100%;
+  height: 40px;
+  color: #333;
+  line-height: 40px;
+  display: block;
+  padding-left: 10px;
+  background-color: #f6f6f6;
+}
+
+.sidebar div ul {
+  width: 100%;
+
+}
+
+.sidebar div ul li {
+  width: 100%;
+  height: 30px;
+  display: block;
+  color: #ccc;
+  line-height: 30px;
+  font-size: 13px;
+  padding: 0 0 0 10px;
+  border: none;
+}
+
+.sidebar .app {
+  width: 100%;
+}
+
+.sidebar .app div {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar .app div img {
+  width: 100%;
+  display: block;
+}
+

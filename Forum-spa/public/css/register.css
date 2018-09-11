@@ -1,0 +1,17 @@
+.register {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.panel-heading {
+  background-color: #125718;
+  color: #fff;
+}
+
+.panel {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 100px;
+}

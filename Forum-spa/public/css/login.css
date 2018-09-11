@@ -1,0 +1,56 @@
+.main {
+  position: relative;
+  margin-top: 20px;
+
+}
+
+.main .login {
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.main .login form {
+  padding: 10px 30px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.main .login form label {
+  display: block;
+}
+
+.main .login form input {
+  width: 100%;
+}
+
+.about {
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.about div {
+  background-color: #f6f6f6;
+  padding-left: 10px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.about p {
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.about ul {
+  width: 100%;
+}
+
+.about ul li {
+  list-style: circle;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
