@@ -15,16 +15,16 @@
 - ### 结构
 
   ```
-  - Forum-api		             --后台api目录
+  - Forum-api                --后台api目录
   .
-  │  app.js									--后台应用程序
+  │  app.js                  --后台应用程序
   │  package-lock.json			 
   │  package.json 					
   │  README.md
-  ├─controllers							--路由模块控制程序
-  ├─models								  --mysql操作文件
+  ├─controllers              --路由模块控制程序
+  ├─models                   --mysql操作文件
   ├─config.js                --基本配置
-  └─routes									--路由模块
+  └─routes                   --路由模块
   ```
 
   ### 服务端
@@ -50,7 +50,7 @@
   ```
   - Forum-spa                   --客户端单页面目录
   .
-  │  index.html								 --项目html页面
+  │  index.html                 --项目html页面
   │  package-lock.json
   │  package.json               --npm配置文件信息
   │  README.md
