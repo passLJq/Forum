@@ -119,6 +119,8 @@ import _ from 'lodash'
           const {data: user} = await axios.get(`/api/users?id=${item.user_id}`)
           this.allComments[i].user_nickname = user[0].nickname
           this.allComments[i].avatar = `/api${user[0].avatar}`
+          // 解决v-for数据更新不渲染
+          this.$forceUpdate()
         })
       },
 
